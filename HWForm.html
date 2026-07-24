@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+       <h1> Novel Sevices Login </h1>
+       <div>
+        <form action="ThankPage.html">
+            <label for="username">Username: </label>
+            <input type="text" id="username" placeholder="Username" required > <br> <br>
+
+            <label for="Password">Password</label>
+            <input type="password" id="Password" placeholder="Password" required > <br><br>
+
+            <label for="city">City of <br> Employment</label>
+            <input type="city"  id="city" placeholder="City" required > <br><br>
+
+            <label for="Web Server">Web server</label>
+            <select name="Web Server" id="Web Server" required>
+                <option value="Choose A Server">Choose A Server</option>
+                <option value="A" >A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                </select>
+                <br><br>                
+                <label for="role" >Please specify your role</label><br>
+                <input type="radio" id="role" name="role" required >Admin <br>
+                <input type="radio" id="role" name="role" required >Engineer <br>
+                <input type="radio" id="role" name="role" required >Manager <br> 
+                <input type="radio" id="role" name="role" required >Guest <br> <br><br>
+
+                <label for="">Single Sign-on to the following </label><br>
+                <input type="checkbox">Gmail <br>
+                <input type="checkbox">PlayRool <br>
+                <input type="checkbox">Self-Service <br>
+                <button>Login</button>
+                <button>Reset</button>
+        </form>
+       </div>      
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor tag</title>
+</head>
+<body>
+    <a href="https://www.google.com/" target="_blank">Click here to go Google Site</a>
+    <h1>Forms</h1>
+    <div>
+        <form action="ThankPage.html" target="_blank">
+            <fieldset> 
+                <legend> Enter Basic Details </legend>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Enter Your Name" required> <br><br>
+            <label for="Email">Enter Email</label>
+            <input type="email" id="Email" placeholder="Enter Your Email"> <br><br>
+            <label for="passWord">Enter password</label>
+            <input type="password" id="passWord" placeholder="Enter Your password"> <br><br>
+
+            
+            <label for="phoneNumber">Enter your phone Number: </label>
+            <input type="number" id="phoneNumber" placeholder="Phone Number"  min="0"  ><br><br>
+            <label for="Adult">Are you 18? : </label>
+            <input type="checkbox" id="Adult"> <br><br>
+
+            <label for="gender">Gender: </label>
+            <label for="Gender">male</label>
+            <input type="radio" id="Gender" name="gender">
+            <label for="gender">female</label>
+            <input type="radio" id="gender" name="gender"> <br><br>
+            <label for="db">Enter Your DOB</label>
+            <input type="date" name="" id="db"><br><br>
+            <label for="File">Upload File </label>
+            <input type="file" name="" id="File">
+            <!-- <input type="submit"> -->
+            <button type="submit" selected="">Submit Form</button><br><br>
+            <label for="city">Select City</label>
+            <select name="city" id="city">
+                <option value="Select State" >Select State</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            </select>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
